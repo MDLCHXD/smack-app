@@ -9,11 +9,13 @@
 /* Begin PBXBuildFile section */
 		92E7B9509E3B43D9D47DD935 /* Pods_Smack.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5AF2A0920917D66A6AC90732 /* Pods_Smack.framework */; };
 		DBC994FE1FAA46700081336E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBC994FD1FAA46700081336E /* AppDelegate.swift */; };
-		DBC995001FAA46700081336E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBC994FF1FAA46700081336E /* ViewController.swift */; };
 		DBC995031FAA46700081336E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DBC995011FAA46700081336E /* Main.storyboard */; };
 		DBC995051FAA46700081336E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DBC995041FAA46700081336E /* Assets.xcassets */; };
 		DBC995081FAA46700081336E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DBC995061FAA46700081336E /* LaunchScreen.storyboard */; };
 		DBC995141FAA7EEF0081336E /* SWRevealViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DBC995121FAA7EEF0081336E /* SWRevealViewController.m */; };
+		DBC995191FAA82010081336E /* ChatVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBC995181FAA82010081336E /* ChatVC.swift */; };
+		DBC9951C1FAA82200081336E /* ChannelVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBC9951B1FAA82200081336E /* ChannelVC.swift */; };
+		DBC995201FAD1B250081336E /* GradientView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBC9951F1FAD1B250081336E /* GradientView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,7 +24,6 @@
 		CE0B17FDB2D8411AEE9EC6C4 /* Pods-Smack.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Smack.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Smack/Pods-Smack.debug.xcconfig"; sourceTree = "<group>"; };
 		DBC994FA1FAA46700081336E /* Smack.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Smack.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DBC994FD1FAA46700081336E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		DBC994FF1FAA46700081336E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		DBC995021FAA46700081336E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		DBC995041FAA46700081336E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DBC995071FAA46700081336E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -30,6 +31,9 @@
 		DBC995111FAA7EEE0081336E /* Smack-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Smack-Bridging-Header.h"; sourceTree = "<group>"; };
 		DBC995121FAA7EEF0081336E /* SWRevealViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SWRevealViewController.m; path = "../../../Smack Assets/SWReveal/SWRevealViewController.m"; sourceTree = "<group>"; };
 		DBC995131FAA7EEF0081336E /* SWRevealViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SWRevealViewController.h; path = "../../../Smack Assets/SWReveal/SWRevealViewController.h"; sourceTree = "<group>"; };
+		DBC995181FAA82010081336E /* ChatVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatVC.swift; sourceTree = "<group>"; };
+		DBC9951B1FAA82200081336E /* ChannelVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChannelVC.swift; sourceTree = "<group>"; };
+		DBC9951F1FAD1B250081336E /* GradientView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GradientView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -73,9 +77,11 @@
 		DBC994FC1FAA46700081336E /* Smack */ = {
 			isa = PBXGroup;
 			children = (
+				DBC995171FAA81DF0081336E /* Model */,
+				DBC995161FAA81D90081336E /* View */,
+				DBC995151FAA81D00081336E /* Controller */,
 				DBC995101FAA7EC90081336E /* Supporting Files */,
 				DBC994FD1FAA46700081336E /* AppDelegate.swift */,
-				DBC994FF1FAA46700081336E /* ViewController.swift */,
 				DBC995011FAA46700081336E /* Main.storyboard */,
 				DBC995041FAA46700081336E /* Assets.xcassets */,
 				DBC995061FAA46700081336E /* LaunchScreen.storyboard */,
@@ -92,6 +98,30 @@
 				DBC995111FAA7EEE0081336E /* Smack-Bridging-Header.h */,
 			);
 			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		DBC995151FAA81D00081336E /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				DBC995181FAA82010081336E /* ChatVC.swift */,
+				DBC9951B1FAA82200081336E /* ChannelVC.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		DBC995161FAA81D90081336E /* View */ = {
+			isa = PBXGroup;
+			children = (
+				DBC9951F1FAD1B250081336E /* GradientView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		DBC995171FAA81DF0081336E /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 		F576BB147F649C22BF0E6B93 /* Pods */ = {
@@ -227,7 +257,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DBC995001FAA46700081336E /* ViewController.swift in Sources */,
+				DBC9951C1FAA82200081336E /* ChannelVC.swift in Sources */,
+				DBC995191FAA82010081336E /* ChatVC.swift in Sources */,
+				DBC995201FAD1B250081336E /* GradientView.swift in Sources */,
 				DBC994FE1FAA46700081336E /* AppDelegate.swift in Sources */,
 				DBC995141FAA7EEF0081336E /* SWRevealViewController.m in Sources */,
 			);
