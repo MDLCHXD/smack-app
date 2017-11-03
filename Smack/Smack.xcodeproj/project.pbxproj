@@ -16,6 +16,8 @@
 		DBC995191FAA82010081336E /* ChatVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBC995181FAA82010081336E /* ChatVC.swift */; };
 		DBC9951C1FAA82200081336E /* ChannelVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBC9951B1FAA82200081336E /* ChannelVC.swift */; };
 		DBC995201FAD1B250081336E /* GradientView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBC9951F1FAD1B250081336E /* GradientView.swift */; };
+		DBC995221FAD2A260081336E /* LoginVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBC995211FAD2A260081336E /* LoginVC.swift */; };
+		DBC995251FAD2AC80081336E /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBC995241FAD2AC80081336E /* Constants.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -34,6 +36,8 @@
 		DBC995181FAA82010081336E /* ChatVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatVC.swift; sourceTree = "<group>"; };
 		DBC9951B1FAA82200081336E /* ChannelVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChannelVC.swift; sourceTree = "<group>"; };
 		DBC9951F1FAD1B250081336E /* GradientView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GradientView.swift; sourceTree = "<group>"; };
+		DBC995211FAD2A260081336E /* LoginVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginVC.swift; sourceTree = "<group>"; };
+		DBC995241FAD2AC80081336E /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +81,7 @@
 		DBC994FC1FAA46700081336E /* Smack */ = {
 			isa = PBXGroup;
 			children = (
+				DBC995231FAD2AB50081336E /* Utilities */,
 				DBC995171FAA81DF0081336E /* Model */,
 				DBC995161FAA81D90081336E /* View */,
 				DBC995151FAA81D00081336E /* Controller */,
@@ -105,6 +110,7 @@
 			children = (
 				DBC995181FAA82010081336E /* ChatVC.swift */,
 				DBC9951B1FAA82200081336E /* ChannelVC.swift */,
+				DBC995211FAD2A260081336E /* LoginVC.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -122,6 +128,14 @@
 			children = (
 			);
 			path = Model;
+			sourceTree = "<group>";
+		};
+		DBC995231FAD2AB50081336E /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				DBC995241FAD2AC80081336E /* Constants.swift */,
+			);
+			path = Utilities;
 			sourceTree = "<group>";
 		};
 		F576BB147F649C22BF0E6B93 /* Pods */ = {
@@ -261,7 +275,9 @@
 				DBC995191FAA82010081336E /* ChatVC.swift in Sources */,
 				DBC995201FAD1B250081336E /* GradientView.swift in Sources */,
 				DBC994FE1FAA46700081336E /* AppDelegate.swift in Sources */,
+				DBC995251FAD2AC80081336E /* Constants.swift in Sources */,
 				DBC995141FAA7EEF0081336E /* SWRevealViewController.m in Sources */,
+				DBC995221FAD2A260081336E /* LoginVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
