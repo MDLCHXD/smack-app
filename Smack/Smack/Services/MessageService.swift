@@ -7,3 +7,8 @@
 //
 
 import Foundation
+
+class MessageService {
+    static let instance = MessageService()
+    
+}
