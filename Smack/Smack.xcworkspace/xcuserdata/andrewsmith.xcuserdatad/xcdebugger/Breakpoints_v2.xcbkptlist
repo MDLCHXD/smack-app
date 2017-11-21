@@ -10,7 +10,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "Smack/Services/AuthService.swift"
-            timestampString = "532242462.140616"
+            timestampString = "532510580.736591"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "31"
@@ -26,7 +26,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "Smack/Services/AuthService.swift"
-            timestampString = "532242462.140746"
+            timestampString = "532510580.736763"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "127"
@@ -42,7 +42,7 @@
                   moduleName = "Smack"
                   usesParentBreakpointCondition = "Yes"
                   urlString = "file:///Users/andrewsmith/Xcode/projects/udemy/smack-app/smack-app/Smack/Smack/Services/AuthService.swift"
-                  timestampString = "532238187.291279"
+                  timestampString = "532996390.531601"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
                   startingLineNumber = "127"
@@ -57,7 +57,7 @@
                   moduleName = "Smack"
                   usesParentBreakpointCondition = "Yes"
                   urlString = "file:///Users/andrewsmith/Xcode/projects/udemy/smack-app/smack-app/Smack/Smack/Services/AuthService.swift"
-                  timestampString = "532238187.293471"
+                  timestampString = "532996390.534376"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
                   startingLineNumber = "129"
@@ -74,11 +74,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "Smack/Controller/CreateAccountVC.swift"
-            timestampString = "532242462.140811"
+            timestampString = "532997105.102961"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "43"
-            endingLineNumber = "43"
+            startingLineNumber = "52"
+            endingLineNumber = "52"
             landmarkName = "createAccountPressed(_:)"
             landmarkType = "7">
             <Locations>
@@ -90,11 +90,11 @@
                   moduleName = "Smack"
                   usesParentBreakpointCondition = "Yes"
                   urlString = "file:///Users/andrewsmith/Xcode/projects/udemy/smack-app/smack-app/Smack/Smack/Controller/CreateAccountVC.swift"
-                  timestampString = "532238187.304082"
+                  timestampString = "532996390.54067"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "41"
-                  endingLineNumber = "41"
+                  startingLineNumber = "44"
+                  endingLineNumber = "44"
                   offsetFromSymbolStart = "3162">
                </Location>
                <Location
@@ -105,11 +105,11 @@
                   moduleName = "Smack"
                   usesParentBreakpointCondition = "Yes"
                   urlString = "file:///Users/andrewsmith/Xcode/projects/udemy/smack-app/smack-app/Smack/Smack/Controller/CreateAccountVC.swift"
-                  timestampString = "532238187.306009"
+                  timestampString = "532996390.543494"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "42"
-                  endingLineNumber = "42"
+                  startingLineNumber = "45"
+                  endingLineNumber = "45"
                   offsetFromSymbolStart = "94">
                </Location>
             </Locations>
@@ -122,11 +122,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "Smack/Controller/CreateAccountVC.swift"
-            timestampString = "532242462.140872"
+            timestampString = "532997105.103325"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "45"
-            endingLineNumber = "45"
+            startingLineNumber = "54"
+            endingLineNumber = "54"
             landmarkName = "createAccountPressed(_:)"
             landmarkType = "7">
             <Locations>
@@ -138,11 +138,11 @@
                   moduleName = "Smack"
                   usesParentBreakpointCondition = "Yes"
                   urlString = "file:///Users/andrewsmith/Xcode/projects/udemy/smack-app/smack-app/Smack/Smack/Controller/CreateAccountVC.swift"
-                  timestampString = "532238187.309664"
+                  timestampString = "532996390.549244"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "43"
-                  endingLineNumber = "43"
+                  startingLineNumber = "46"
+                  endingLineNumber = "46"
                   offsetFromSymbolStart = "173">
                </Location>
                <Location
@@ -153,11 +153,11 @@
                   moduleName = "Smack"
                   usesParentBreakpointCondition = "Yes"
                   urlString = "file:///Users/andrewsmith/Xcode/projects/udemy/smack-app/smack-app/Smack/Smack/Controller/CreateAccountVC.swift"
-                  timestampString = "532238187.311336"
+                  timestampString = "532996390.551324"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "44"
-                  endingLineNumber = "44"
+                  startingLineNumber = "47"
+                  endingLineNumber = "47"
                   offsetFromSymbolStart = "61">
                </Location>
             </Locations>
@@ -170,11 +170,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "Smack/Controller/CreateAccountVC.swift"
-            timestampString = "532242462.140924"
+            timestampString = "532997105.103571"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "48"
-            endingLineNumber = "48"
+            startingLineNumber = "57"
+            endingLineNumber = "57"
             landmarkName = "createAccountPressed(_:)"
             landmarkType = "7">
             <Locations>
@@ -186,11 +186,11 @@
                   moduleName = "Smack"
                   usesParentBreakpointCondition = "Yes"
                   urlString = "file:///Users/andrewsmith/Xcode/projects/udemy/smack-app/smack-app/Smack/Smack/Controller/CreateAccountVC.swift"
-                  timestampString = "532238187.314941"
+                  timestampString = "532996390.556688"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "46"
-                  endingLineNumber = "46"
+                  startingLineNumber = "49"
+                  endingLineNumber = "49"
                   offsetFromSymbolStart = "319">
                </Location>
                <Location
@@ -201,14 +201,30 @@
                   moduleName = "Smack"
                   usesParentBreakpointCondition = "Yes"
                   urlString = "file:///Users/andrewsmith/Xcode/projects/udemy/smack-app/smack-app/Smack/Smack/Controller/CreateAccountVC.swift"
-                  timestampString = "532238187.316401"
+                  timestampString = "532996390.558821"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "47"
-                  endingLineNumber = "47"
+                  startingLineNumber = "50"
+                  endingLineNumber = "50"
                   offsetFromSymbolStart = "28">
                </Location>
             </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Smack/Controller/AvatarPickerVC.swift"
+            timestampString = "532997105.103819"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "51"
+            endingLineNumber = "51"
+            landmarkName = "segmentControlChanged(_:)"
+            landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
    </Breakpoints>
